@@ -5,9 +5,18 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "components"
+    "components",
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
     "angular": ">=1.0.6"
-  }
+  },
+  "homepage": "https://github.com/scaperow/wg-elastic",
+  "authors": [
+    "huhaibo <huhaibo@wisdomgarden.com>"
+  ],
+  "description": "",
+  "license": "MIT"
 }
