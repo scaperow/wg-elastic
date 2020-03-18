@@ -197,7 +197,7 @@ angular.module('monospaced.elastic', [])
           scope.$watch(function() {
             return ngModel.$modelValue;
           }, function(newValue) {
-            forceAdjust();
+            $timeout(forceAdjust,0);
           });
 
           scope.$on('elastic:adjust', function() {
